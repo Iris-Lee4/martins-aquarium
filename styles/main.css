@@ -5,48 +5,55 @@ header {
     width: 100%;
     padding: 10px;
     position: fixed;
-    background-color: aquamarine;
+    background-image: url(https://t3.ftcdn.net/jpg/03/29/38/38/360_F_329383801_BKEydqwEWZoOEeNUDFxLOpVUhSB2JigK.jpg);
     font-size: 24px;
+    color: white;
 }
 
 body {
     display: flex;
+    justify-content: space-between;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 main {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin: 20px;
     padding: 50px;
+    background-color:cadetblue;
+    width: 70%;
 }
 
 aside {
     width: 30%;
-    padding-top: 15px;
+    padding-top: 50px;
+    background-color: cadetblue;
+    text-align: center;
 }
 
-aside.h1 {
-    padding: 20px;
-}
-
-.fishlist {
+.fishList {
     display: flex;
     flex-wrap: wrap;
+    padding: 10px;
 }
 
 .fish {
     border-style: groove;
-    width: 25%;
-    padding: 10px;
+    width: auto;
+    margin: 2em;
+    padding-right: 1em;
 }
 
 img {
     display: block;
-    width: 75px;
+    width: auto;
     height: 50px;
 }
-
+/* 
 h1 {
     text-align: center;
     padding: 15px;
-    positin: center;
-}
+    position: center;
+} */
